@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONALEP - Planteles y Comentarios</title>
+    <link rel="stylesheet" href="style-planteles.css">
+</head>
+<body>
+    <img src="logo.png" alt="Logo del conalep" class="logo">
+    <nav class="menu-contenedor">
+        <button class="menu-boton" id="btnMenu">☰ Menú</button>
+        <ul class="menu-lista" id="listaMenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="planteles.html">Planteles y Sugerencias</a></li>
+        </ul>
+    </nav>
+
+    <header class="encabezado-paginas">
+        <h1 class="titulo-pagina">Planteles</h1>
+    </header>
+
+    <main class="contenedor-planteles">
+        <!-- Resumen Inicial de Estados -->
+        <section class="seccion-estados">
+            <h2>Cobertura Nacional</h2>
+            <p>El sistema de educación técnica tiene presencia total en la República Mexicana. Cuenta con planteles activos en los <strong>32 estados del país</strong>, incluyendo: Ciudad de México, Estado de México, Nuevo León, Jalisco, Guanajuatos, Veracruz, Puebla, y más.</p>
+        </section>
+
+        <!-- Lista de Planteles y Hazañas Reales -->
+        <section class="lista-hazas">
+            <h2>Casos de Éxito Históricos</h2>
+            <div class="haza-item">
+                <h3>Planteles de Guanajuato (Silao / León)</h3>
+                <p>Alumnos ganaron el primer lugar absoluto en el Torneo Mundial de Robótica WER celebrado en Shanghái, China, compitiendo contra potencias tecnológicas mundiales.</p>
+            </div>
+            <div class="haza-item">
+                <h3>Planteles del Estado de México (Metepec / Naucalpan)</h3>
+                <p>Destacados de forma anual con la máxima cantidad de galardonados de la Presea "Ing. Bernardo Quintana Arrioja" por su excelencia académica y aportaciones comunitarias.</p>
+            </div>
+            <div class="haza-item">
+                <h3>Plantel Dr. Eduardo Macías Santos (Nuevo León)</h3>
+                <p>Hogar académico del estudiante Alexander Well, quien a sus 16 años consiguió certificar de forma consecutiva 8 diplomados internacionales impartidos en línea por la Universidad de Harvard.</p>
+            </div>
+        </section>
+
+        <!-- Formulario de Sugerencias Requerido -->
+        <section class="seccion-comentarios">
+            <h2>Buzón de Comentarios y Sugerencias</h2>
+            <form id="formularioSugerencias" class="formulario-conalep">
+                <div class="campo">
+                    <label for="nombreUsuario">Nombre Completo:</label>
+                    <input type="text" id="nombreUsuario" required placeholder="Escribe tu nombre">
+                </div>
+                <div class="campo">
+                    <label for="mensajeUsuario">Tu Comentario o Sugerencia:</label>
+                    <textarea id="mensajeUsuario" rows="5" required placeholder="Escribe tu sugerencia aquí..."></textarea>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+            </form>
+            <!-- Contenedor dinámico de respuesta exitosa -->
+            <div id="mensajeExito" class="alerta-exito"></div>
+        </section>
+    </main>
+
+    <script src="script-planteles.js"></script>
+</body>
+</html>

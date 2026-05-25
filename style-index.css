@@ -1,0 +1,127 @@
+/* Paleta estricta: Verde (#006432) y Blanco (#ffffff) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #006432;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Menú en la parte superior izquierda */
+.menu-contenedor {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.body {
+background-image: p1.jpeg;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+margin: 0;
+height: 100vh;
+}
+
+.logo { 
+width: 250px;
+}
+
+.menu-boton {
+    background-color: #006432;
+    color: #ffffff;
+    border: 20px solid #006432;
+    border-width: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.menu-lista {
+    list-style: none;
+    background-color: #ffffff;
+    border: 2px solid #006432;
+    margin-top: 5px;
+    display: none;
+    border-radius: 4px;
+    width: 220px;
+}
+
+.menu-lista li a {
+    display: block;
+    padding: 12px 15px;
+    color: #006432;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu-lista li a:hover {
+    background-color: #006432;
+    color: #ffffff;
+}
+
+/* Encabezado Principal Centrado Arriba */
+.encabezado-principal {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.encabezado-principal h1 {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Cuerpo y Secciones */
+.contenido-centro {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.tarjeta-resumen {
+    border: 3px solid #006432;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.tarjeta-resumen h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.tarjeta-resumen p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #000000; /* Negro para legibilidad de texto, o puedes mantenerlo verde quitando esta regla */
+}
+
+.enlace-conalep {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #006432;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.enlace-conalep:hover {
+    background-color: #ffffff;
+    color: #006432;
+    outline: 2px solid #006432;
+}
