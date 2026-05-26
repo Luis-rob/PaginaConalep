@@ -30,7 +30,8 @@ body {
 }
 
 .oficinas {
-width: 550px;
+width: 100%;
+max-width: 550px;
 }
 
 .menu-lista {
