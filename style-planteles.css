@@ -13,7 +13,6 @@ body {
    background-attachment: fixed;
 }
 
-/* Configuración de menú consistente */
 .menu-contenedor {
     position: absolute;
     top: 20px;
@@ -59,7 +58,6 @@ left: 500px;
     color: #ffffff;
 }
 
-/* Encabezado */
 .encabezado-paginas {
     display: flex;
     flex-direction: column;
@@ -76,7 +74,6 @@ left: 500px;
     padding-bottom: 5px;
 }
 
-/* Contenido Principal */
 .contenedor-planteles {
     max-width: 800px;
     margin: 0 auto;
@@ -115,7 +112,6 @@ left: 500px;
     line-height: 1.5;
 }
 
-/* Formulario Estricto Verde/Blanco */
 .formulario-conalep {
     display: flex;
     flex-direction: column;
@@ -143,7 +139,7 @@ left: 500px;
 
 .campo input:focus, .campo textarea:focus {
     outline: none;
-    background-color: #f0fdf4; /* Tonalidad blanca sutilmente verdosa permitida por limpieza */
+    background-color: #f0fdf4;
 }
 
 .boton-enviar {
